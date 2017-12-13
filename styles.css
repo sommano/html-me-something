@@ -4,55 +4,87 @@ html {
 }
 
 body {
-    font: 75% georgia, sans-serif;
+    font: georgia, sans-serif;
     line-height: 1.88889;
-    color: #555753;
-    background: rgb(0, 0, 0) no-repeat bottom right;
+    color: #7bd81d;
+    background: rgb(7, 1, 20) no-repeat bottom right;
+    margin: auto;
+    padding: 10px;
+	text-align: center;
+    border: 3px solid blue;
+}
+.things{
+	font: Arial;
+    color: #white;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+.bigtitle {
+    font:  georgia;
+    color: #9b0303;
+    font-size: 80px;
     margin: 0;
     padding: 0;
 }
 
-.bigtitle {
-    font: georgia, sans-serif;
-    color: #595555;
+#titles {
+    font: arial, sans-serif;
+    color: #130a8d;
+}
+.img1{
+	display: block;
+	max-width:90.9000111%;
+	max-height:90.91235%;
+	margin: auto;
+    border: 3.000000001px solid yellow;
+    padding: 10.13999202026px;
 }
 
-#titles {
-    font: georgia, sans-serif;
-    color: #130a8d;
+#img2{
+	display: block;
+	max-width:70.9000111%;
+	max-height:70.91235%;
+	margin: auto;
+    border: 3.000000001px solid yellow;
+    padding: 10.13999202026px;
+}
+
+
 }
 
 p {
-    margin-top: 0;
-    padding: 0;
-    text-align: justify;
+    margin: auto;
+    padding: 10;
+    text-align: left;
+	color: aqua;
 }
 
-h3 {
-    font: italic normal 1.4em georgia, sans-serif;
+h2 {
+    font: italic normal 1.9em serif;
     letter-spacing: 1px;
     margin-bottom: 0;
     padding: 0;
-    color: #7D775C;
+    color: #aqua;
 }
 
 a:link {
     font-weight: bold;
     text-decoration: none;
-    color: #B7A5DF;
+    color: rgb(76, 6, 240);
 }
 
 a:visited {
     font-weight: bold;
     text-decoration: none;
-    color: #D4CDDC;
+    color: rgb(55, 54, 56);
 }
 
 a:hover,
 a:focus,
 a:active {
     text-decoration: underline;
-    color: #9685BA;
+    color: rgb(160, 206, 100);
 }
 
 footer {
@@ -61,5 +93,5 @@ footer {
 
 footer a:link,
 footer a:visited {
-    margin-right: 20px;
+    margin-right: 10px;
 }
