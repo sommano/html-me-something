@@ -14,7 +14,7 @@ body {
     border: 3px solid blue;
 }
 .things{
-	font: Arial;
+    font: Arial;
     color: #white;
     font-size: 100px;
     margin: 0;
@@ -33,19 +33,19 @@ body {
     color: #130a8d;
 }
 .img1{
-	display: block;
-	max-width:90.9000111%;
-	max-height:90.91235%;
-	margin: auto;
+    display: block;
+    max-width:90.9000111%;
+    max-height:90.91235%;
+    margin: auto;
     border: 3.000000001px solid yellow;
     padding: 10.13999202026px;
 }
 
 #img2{
-	display: block;
-	max-width:70.9000111%;
-	max-height:70.91235%;
-	margin: auto;
+    display: block;
+    max-width:70.9000111%;
+    max-height:70.91235%;
+    margin: auto;
     border: 3.000000001px solid yellow;
     padding: 10.13999202026px;
 }
